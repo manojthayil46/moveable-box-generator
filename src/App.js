@@ -6,7 +6,7 @@ export const Box = ({ id, clickHandlor, styl }) => {
     <div id={id} className='box' style={styl} onClick={clickHandlor}>{id} </div>
   );
 }
-// export default Box;
+// export default Box 222222222;
 
 function App() {
   const [boxCount, setBoxCount] = useState(0);
